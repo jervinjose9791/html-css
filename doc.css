@@ -1,0 +1,55 @@
+body{
+    background-image: url(https://as1.ftcdn.net/v2/jpg/02/79/75/32/1000_F_279753293_WBJYkki4xIYH1bJFCA4PbVXDzvWsewI0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.doctors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.doctor {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+}
+.doctor img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.doctor-info {
+    padding: 20px;
+}
+.doctor h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+.doctor p {
+    margin: 0;
+    color: #666;
+}
+nav p a{
+    border: 3px solid #03009b;
+    text-shadow: 0 0 10px rgba(164, 1, 102, 0.7);
+}
+.doctor img:hover{
+    background-color: red;
+    transform:scale3d( 1.1,1.1,1.1)
+}
